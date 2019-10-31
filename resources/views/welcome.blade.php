@@ -13,7 +13,7 @@
 Arbitex - Dashboard</title>
 
   <!-- Custom fonts for this template-->
-  <link href="public/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
   <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
@@ -24,7 +24,7 @@ Arbitex - Dashboard</title>
 </style>
 
   <!-- Custom styles for this template-->
-  <link href="public/css/sb-admin-2.min.css" rel="stylesheet">
+  <link href="css/sb-admin-2.min.css" rel="stylesheet">
 
 
   <script
@@ -32,7 +32,7 @@ Arbitex - Dashboard</title>
   integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
   crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <script src="public/ckeditor/ckeditor.js"></script>
+    <script src="ckeditor/ckeditor.js"></script>
     <script type="text/javascript">
         ClassicEditor.create( document.querySelector( '#editor' ), {
         
@@ -87,7 +87,7 @@ far fa-paper-plane"></i>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             <h6 class="collapse-header"></h6>
-            <a class="collapse-item" href="#">New Mail</a>
+            <a class="collapse-item" href="{{ route('mail.index') }}">New Mail</a>
             <a class="collapse-item" href="#">Model</a>
           </div>
         </div>
@@ -400,21 +400,21 @@ img/unnamed.jpg">
   </div>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="/public/vendor/jquery/jquery.min.js"></script>
-  <script src="/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->
-  <script src="/public/vendor/jquery-easing/jquery.easing.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for all pages-->
-  <script src="/public/js/sb-admin-2.min.js"></script>
+  <script src="js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
-  <script src="/public/vendor/chart.js/Chart.min.js"></script>
+  <script src="vendor/chart.js/Chart.min.js"></script>
 
   <!-- Page level custom scripts -->
-  <script src="/public/js/demo/chart-area-demo.js"></script>
-  <script src="/public/js/demo/chart-pie-demo.js"></script>
+  <script src="js/demo/chart-area-demo.js"></script>
+  <script src="js/demo/chart-pie-demo.js"></script>
 
     
 
